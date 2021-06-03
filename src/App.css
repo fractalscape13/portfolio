@@ -1,6 +1,8 @@
 body, html {
   min-height: 100%;
   font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  background-color: black;
 }
 
 html {
@@ -10,11 +12,29 @@ html {
   background-size: cover;
 }
 
-.container {
+.bodyContainer {
   background-color: black;
   color: antiquewhite;
   display: flex;
   flex-direction: row;
   width: 100vw;
   height: 100vh;
+  outline: 1px solid red;
+
+}
+
+.headerContainer {
+  background-color: darkgray;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 10vh;
+  align-items: center;
+  outline: 1px solid red;
+
+}
+
+.headerText {
+  color: aqua;
 }

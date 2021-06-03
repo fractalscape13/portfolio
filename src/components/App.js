@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
+import './../App.css';
 import Home from './Home';
 import Header from './Header';
 import Projects from './Projects';
 import Contact from './Contact';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-export default () => {
+function App() {
 
   return (
     <Router>
@@ -25,3 +25,5 @@ export default () => {
     </Router>
   );
 }
+
+export default App;
