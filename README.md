@@ -25,7 +25,7 @@ To run this project, you will:
 
 ## Known Bugs/Contact
 
-_If you have any questions or comments at all, email me at fractalscape13@gmail.com_
+_If you have any questions or comments, email me at fractalscape13@gmail.com_
 
 ### License
 
