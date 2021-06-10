@@ -16,25 +16,50 @@ html {
   background-color: black;
   color: antiquewhite;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
-  outline: 1px solid red;
-
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30%;
 }
 
 .headerContainer {
-  background-color: darkgray;
-  color: antiquewhite;
+  background-color: rgb(62, 62, 62);
   display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: 10vh;
-  align-items: center;
-  outline: 1px solid red;
-
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .headerText {
-  color: aqua;
+  color: rgb(175, 218, 218);
+  font-size: 125%;
+}
+
+.headerText:hover {
+  opacity: .6;
+  cursor: pointer;
+}
+
+.bigText {
+  color: rgb(175, 218, 218);
+  font-size: 350%;
+  margin: 0;
+}
+
+.smallText {
+  color: rgb(175, 218, 218);
+  font-size: 125%;
+}
+
+.linkText {
+  color: rgb(170, 95, 170);
+  font-size: 150%;
+}
+
+.linkText:hover {
+  opacity: .6;
+  cursor: pointer;
 }
